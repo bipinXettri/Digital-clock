@@ -1,0 +1,26 @@
+body{
+    background-image: linear-gradient(to right,Skyblue, yellow);
+}
+.container{
+  border: 1px solid;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  height: 100vh;
+  margin: auto;
+}
+.digitalClock{
+  background: rgba(0, 0, 0, 0.72);
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+  width: fit-content;
+  height: 50px;
+}
+.digitalClock h1{
+  display: inline-block;
+  margin: 0px 10px;
+  font-weight: bold;
+  color: whitesmoke;
+}
